@@ -9,7 +9,6 @@ html{
 }
 .player{
     margin-block-start: 100px;
-    /* border: 10px solid red; */
     position: relative;
     display: flex;
 
@@ -18,7 +17,7 @@ html{
 .player-overlay {
     position: absolute;
     inset: 0;
-    /* opacity: 0; */
+    opacity: 0;
 }
 .player:hover .player-overlay {
     opacity: 1;
