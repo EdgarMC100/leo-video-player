@@ -1,0 +1,37 @@
+.btn {
+    inline-size: 32px;
+    writing-mode: horizontal-tb; 
+    block-size: 32px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer; 
+}
+button:active{
+    transform: scale(.9);
+}
+
+#play{
+    background-image: url('../assets/images/play.svg');
+}
+#pause{
+    background-image: url('../assets/images/pause.svg');
+}
+#forward{
+    background-image: url('../assets/images/+10.svg');
+}
+#backward{
+    background-image: url('../assets/images/-10.svg');
+}
+#volume-up{
+    background-image: url('../assets/images/volume-up-solid.svg');
+}
+
+#volume-mute{
+    background-image: url('../assets/images/volume-mute-solid.svg');
+}
+
+#full-screen{
+    background-image: url('../assets/images/full-screen.svg');
+}
